@@ -11,6 +11,7 @@ import (
 
 func main() {
 	router := gin.Default()
+	router.LoadHTMLGlob("public/*")
 	api := router.Group("/")
 	{
 		api.GET("/", index)
@@ -20,7 +21,7 @@ func main() {
 }
 
 func index(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"message": "Hi there!"})
+	c.HTML(http.StatusOK, "index.html", "")
 }
 
 func scrapePage(c *gin.Context) {

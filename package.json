@@ -1,0 +1,20 @@
+{
+  "name": "goscrape",
+  "version": "1.0.0",
+  "description": "Go <3 React",
+  "main": "main.go",
+  "scripts": {
+    "start": "go run main.go",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enderalansoy/go-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enderalansoy/go-scrape/issues"
+  },
+  "homepage": "https://github.com/enderalansoy/go-scrape#readme"
+}
