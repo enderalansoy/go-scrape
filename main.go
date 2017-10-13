@@ -20,7 +20,7 @@ func main() {
 }
 
 func index(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"message": "Welcome to Scrapr"})
+	c.JSON(http.StatusOK, gin.H{"message": "Hi there!"})
 }
 
 func scrapePage(c *gin.Context) {
