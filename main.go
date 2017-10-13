@@ -1,3 +1,9 @@
+/*
+* Name: main.js
+*	Description: Gin server and API endpoints configurations.
+* Author: enderalansoy
+ */
+
 package main
 
 import (
